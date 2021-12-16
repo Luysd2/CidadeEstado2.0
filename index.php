@@ -32,13 +32,6 @@
    // echo "<br>";
    // printf("Quantidade de cidades é: " . $linhas);
 
-
-    //$result = $mysqli->query("SELECT Code, Name FROM Country ORDER BY Name");
-    /* Get the number of rows in the result set */
-    //$row_cnt = $result->num_rows;
-    $x = $result->num_rows;
-    printf("Quantidade de cidades é: " . $x);
-
     ?>
 <br><br><br>
     <a href="cadastro.php">Cadastrar</a>
