@@ -22,7 +22,7 @@
     echo "<br>";
     //echo mysqli_result($d);
 
-    //mysqli_num_rows()
+    //mysqli_num_rows() dd
 */
     $sql = "SELECT count(cidade) FROM cidadeestado";
     $result = mysqli_query($conn, $sql);
